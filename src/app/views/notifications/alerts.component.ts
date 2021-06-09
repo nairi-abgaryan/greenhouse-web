@@ -33,17 +33,17 @@ export class AlertsComponent {
   dismissible = true;
   alerts: any = [
     {
-      type: 'success',
-      msg: `You successfully read this important alert message.`
-    },
-    {
       type: 'info',
-      msg: `This alert needs your attention, but it's not super important.`
+      msg: `Օդորակիչը միցաված է`
     },
     {
       type: 'danger',
-      msg: `Better check yourself, you're not looking too good.`
-    }
+      msg: `Ջերմաստիճանի ցուցիչները չեն աշխատում արդեն 10 րոպե`
+    },
+    {
+      type: 'success',
+      msg: `Ջերմաստիճանի ցուցիչները միացված են համակարգին`
+    },
   ];
 
   alertsHtml: any = [

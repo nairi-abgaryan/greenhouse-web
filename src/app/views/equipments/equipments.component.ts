@@ -3,14 +3,14 @@ import { getStyle } from '@coreui/coreui/dist/js/coreui-utilities';
 import { CustomTooltips } from '@coreui/coreui-plugin-chartjs-custom-tooltips';
 
 @Component({
-  templateUrl: 'widgets.component.html'
+  templateUrl: 'equipments.component.html'
 })
-export class WidgetsComponent {
+export class EquipmentsComponent {
 
   // lineChart1
   public lineChart1Data: Array<any> = [
     {
-      data: [65, 59, 84, 84, 51, 55, 40],
+      data: [65, 59, 84, 84, 51, 55, 100],
       label: 'Series A'
     }
   ];
@@ -210,7 +210,8 @@ export class WidgetsComponent {
   // lineChart4
   public lineChart4Data: Array<any> = [
     {
-      data: [4, 18, 9, 17, 34, 22, 11, 3, 15, 12, 18, 9],
+      // data: [4, 18, 9, 17, 34, 22, 11, 3, 15, 12, 18, 9],
+      data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
       label: 'Series A'
     }
   ];
